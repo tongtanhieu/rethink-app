@@ -601,6 +601,9 @@ class BraveVPNService :
 
         val isNtpFromSystemApp = KnownPorts.isNtp(port) && FirewallManager.isUidSystemApp(uid)
         return !isNtpFromSystemApp
+
+        val isHttp3 = port == KnownPorts.HTTPS_PORT
+        return !isHttp3
     }
 
     private fun isVpnDns(ip: String): Boolean {
