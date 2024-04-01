@@ -921,7 +921,7 @@
     <string name="univ_firewall_rule_1" translatable="true">Block all apps when device is locked</string>
     <string name="univ_firewall_rule_2" translatable="true">Block any app not in use</string>
     <string name="univ_firewall_rule_3" translatable="true">Block when source app is unknown</string>
-    <string name="univ_firewall_rule_4" translatable="true">Block UDP except DNS and NTP</string>
+    <string name="univ_firewall_rule_4" translatable="true">Block UDP except DNS, NTP and HTTP3</string>
     <string name="univ_firewall_rule_5" translatable="true">Block when DNS is bypassed</string>
     <string name="univ_firewall_rule_6" translatable="true">Block newly installed apps by default</string>
     <string name="univ_firewall_rule_7" translatable="true">Block IPv4 in IPv6 (experimental)</string>
